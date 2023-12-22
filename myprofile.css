@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 120px;
+    display: flex;
+    background-image: url(marek-piwnicki-JPVwphmOwB4-unsplash.jpg);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a{
+    font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+nav a:hover,
+nav a.active {
+    color: rgb(0, 38, 255);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: wheat;
+    font-weight: 800;
+}
+
+
+
+.homepage{
+    height: 100vh;
+    width: 100%;
+    padding-left: 5%;
+    background-image: url(taylor-D9_QOTmbFAg-unsplash.jpg);
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.contentHome{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 294px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    
+}
+.contentHome p{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.my_img{
+
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+
+.socialLinks{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.socialLinks a{
+    text-decoration: double;
+    color: rgb(219, 231, 224);
+    padding-right: 0px;
+    font-size: 18px;
+}
+.hobbiespage{
+    position: relative;
+    width: 60%;
+    height: auto;
+    background-image: url(hobbies.jpg);
+    overflow: hidden;
+}
+.hobbiescontent{
+    display: flex;
+    width: 100%;
+
+}
+.hobbiescontent img{
+    height: 80%;
+    width: 80%;
+    transition: all 0.15s ease;
+}
+.hh{
+    background-color: blueviolet;
+    font-size: larger;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hobbiescontent input{
+    display: none;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid rgb(202, 179, 245) 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover{background: black;}
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+#img4:checked ~ .m4{
+    margin-left: -300%;
+}
+
+
+.hobbycontent p{
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 23px;
+}
+.hobbycontent h1{
+    text-decoration: none;
+    text-align: center;
+    color: gold;
+    font-weight: 800;
+    font-size: 23px;
+} 
+
+
+
+.profilecontent{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-image: url(clem-onojeghuo-zlABb6Gke24-unsplash.jpg);
+    display: flex;
+}
+.card {
+
+    align-content: flex-start;
+  }
+  .names{
+
+
+    color: antiquewhite;
+    margin-top: 30%;
+    margin-left: 30px;
+    
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .contactslinks {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+
+.aboutus{
+    background-image: url(annie-spratt-CV3nkG7XIwg-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    
+}
+
+  .aboutus div {
+    margin-top: 20%;
+    width: 45%;
+    color: aliceblue;
+    float: left;
+    line-height: 30px;
+    text-decoration: none;
+    text-decoration: solid;
+    font-size: 18px;
+  }
+  .aboutus h4 {
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration-color: aliceblue;
+  }
+  .aboutus p {
+    line-height: 42px;
+    text-decoration-color: bisque;
+  }
+  .aboutus img {
+
+    width: 70%;
+    margin-top: 10%;
+    height: 70%;
+    float: left;
+  }
+  .social {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .social a{
+    font-size: 30px;
+    color: #0a0e0d;
+    border-style: groove;
+    border-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block
+  }
+
+
+
+  .social a:hover {
+    background-color: rgb(32, 139, 0);
+    color: #ec1136;
+    -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  }
+
+
+  .row social{
+    background-image: url(merakist-CNbRsQj8mHQ-unsplash.jpg);
+  }
+
+
+
+
+
+
+
+
+
+
+
